@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Privacy Policy - Ad Blocker Sentinel</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family:
+          -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+          Arial, sans-serif;
+        line-height: 1.6;
+        color: #1d1d1f;
+        background: #fff;
+        padding: 2rem 1rem;
+        max-width: 720px;
+        margin: 0 auto;
+      }
+      h1 {
+        font-size: 2rem;
+        margin-bottom: 0.25rem;
+      }
+      h2 {
+        font-size: 1.25rem;
+        margin-top: 2rem;
+        margin-bottom: 0.5rem;
+      }
+      p,
+      li {
+        margin-bottom: 0.5rem;
+      }
+      ul {
+        padding-left: 1.5rem;
+      }
+      .meta {
+        color: #6e6e73;
+        font-size: 0.9rem;
+        margin-bottom: 2rem;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 1rem;
+      }
+      th,
+      td {
+        text-align: left;
+        padding: 0.5rem 0.75rem;
+        border-bottom: 1px solid #e5e5e5;
+      }
+      th {
+        font-weight: 600;
+      }
+      a {
+        color: #0066cc;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      .back {
+        display: inline-block;
+        margin-bottom: 1.5rem;
+        font-size: 0.9rem;
+      }
+    </style>
+  </head>
+  <body>
+    <a class="back" href="index.html">&larr; Ad Blocker Sentinel</a>
+    <h1>Privacy Policy</h1>
+    <p class="meta">
+      Effective Date: March 24, 2026 &middot; Last Updated: March 24, 2026
+    </p>
+
+    <h2>Overview</h2>
+    <p>
+      Ad Blocker Sentinel ("the App") is an iOS ad blocker that blocks
+      advertisements and trackers at the system level. Your privacy is
+      fundamental to our mission &mdash; we built this app to protect it.
+    </p>
+
+    <h2>Data Collection</h2>
+    <p><strong>We do not collect any personal data.</strong></p>
+    <p>
+      The App does not collect, store, transmit, or share any personal
+      information. Specifically:
+    </p>
+    <ul>
+      <li>No personal identifiers (name, email, phone number, Apple ID)</li>
+      <li>No device identifiers (IDFA, IDFV, device fingerprints)</li>
+      <li>No usage analytics or behavioral data</li>
+      <li>No browsing history or URL logs</li>
+      <li>No location data</li>
+      <li>No crash reports sent to external services</li>
+      <li>No third-party SDKs, trackers, or analytics frameworks</li>
+    </ul>
+
+    <h2>How the App Works</h2>
+    <p>
+      All ad and tracker blocking happens
+      <strong>entirely on your device</strong>:
+    </p>
+    <ul>
+      <li>
+        <strong>Bloom Filter:</strong> A compact data structure stored locally
+        on your device checks URLs against known ad/tracker domains. No URLs
+        leave your device during this check.
+      </li>
+      <li>
+        <strong>Private Information Retrieval (PIR):</strong> When a URL needs
+        further verification, the query is sent through Apple's Oblivious HTTP
+        (OHTTP) relay. This relay strips your IP address before the query
+        reaches our server, ensuring we cannot identify who made the request.
+      </li>
+      <li>
+        <strong>Safari Content Blocker:</strong> Cosmetic ad-hiding rules run
+        entirely within Safari on your device. Apple's Content Blocker API does
+        not allow extensions to access browsing data.
+      </li>
+    </ul>
+
+    <h2>Local Storage</h2>
+    <p>
+      The App stores preferences and settings locally on your device using iOS
+      App Groups:
+    </p>
+    <ul>
+      <li>Filter enable/disable state</li>
+      <li>Whitelist (sites you've chosen to exclude from blocking)</li>
+      <li>Filter list selection preferences</li>
+    </ul>
+    <p>
+      This data never leaves your device and is not accessible to us or any
+      third party.
+    </p>
+
+    <h2>Third-Party Services</h2>
+    <p>
+      The App does not integrate any third-party services, SDKs, or analytics
+      platforms.
+    </p>
+
+    <h2>Children's Privacy (COPPA)</h2>
+    <p>
+      The App is not directed at children under the age of 13. We do not
+      knowingly collect personal information from children. Since the App
+      collects no personal data from any user, it is compliant with the
+      Children's Online Privacy Protection Act (COPPA).
+    </p>
+
+    <h2>European Users (GDPR)</h2>
+    <p>
+      Since the App does not collect, process, or store any personal data as
+      defined by the General Data Protection Regulation (GDPR), there is no
+      personal data to access, rectify, delete, or port. The App is compliant
+      with GDPR by design.
+    </p>
+
+    <h2>California Users (CCPA)</h2>
+    <p>
+      Under the California Consumer Privacy Act (CCPA), you have the right to
+      know what personal information is collected about you. The App collects no
+      personal information. We do not sell personal information, as we have none
+      to sell. The App is compliant with CCPA.
+    </p>
+
+    <h2>Data Retention</h2>
+    <p>
+      No personal data is stored on our servers. Local preferences stored on
+      your device are retained until you delete the App, at which point all
+      local data is removed by iOS.
+    </p>
+
+    <h2>Changes to This Policy</h2>
+    <p>
+      We may update this Privacy Policy from time to time. Changes will be
+      reflected in the "Last Updated" date above. Continued use of the App after
+      changes constitutes acceptance of the updated policy.
+    </p>
+
+    <h2>Contact</h2>
+    <p>If you have questions about this Privacy Policy, please contact:</p>
+    <p>
+      <strong>Email:</strong>
+      <a href="mailto:support@robertguss.com">support@robertguss.com</a>
+    </p>
+
+    <h2>Summary</h2>
+    <table>
+      <tr>
+        <th>Category</th>
+        <th>Status</th>
+      </tr>
+      <tr>
+        <td>Personal data collected</td>
+        <td>None</td>
+      </tr>
+      <tr>
+        <td>Tracking</td>
+        <td>None</td>
+      </tr>
+      <tr>
+        <td>Third-party SDKs</td>
+        <td>None</td>
+      </tr>
+      <tr>
+        <td>Analytics</td>
+        <td>None</td>
+      </tr>
+      <tr>
+        <td>Data shared with third parties</td>
+        <td>None</td>
+      </tr>
+      <tr>
+        <td>Data sold</td>
+        <td>None</td>
+      </tr>
+    </table>
+  </body>
+</html>
